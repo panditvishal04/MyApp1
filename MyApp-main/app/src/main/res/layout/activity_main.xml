@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About you"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:text="Enter your name"
+         />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:id="@+id/etn"
+        android:hint="abc"
+        android:inputType="textCapWords"
+        android:imeOptions="actionGo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:text="Enter your Age"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:id="@+id/etnum"
+        android:hint="00"
+        android:inputType="number"
+        android:imeOptions="actionGo"
+        android:maxLength="10"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:text="Enter your Height"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eth"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center|center_vertical"
+        android:hint="00"
+        android:imeOptions="actionGo"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VALIDATE"
+        android:textColor="#FFEB3B"
+        android:id="@+id/btnNext"
+        />
+</LinearLayout>
